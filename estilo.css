@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=M+PLUS+1p:wght@300&display=swap');
+
+
+body{
+    margin: 0px;
+}
+
+/*index*/
+
+.karen2 {
+    background-image: url(Kaisa_26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.karen{
+    text-align: center;
+}
+
+.karen h1{
+    font-family: Impact;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.karen p{
+    font-family: Impact;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen button{
+    border-radius: 15%;
+    font-family:Impact;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 60px;
+    background:rgba(20, 88, 128)
+}
+/*menu*/
+
+.redes-sociales{
+    background-color: rgb(101, 57, 134) ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-redes a{
+    color: #f4e7d5
+}
+
+nav{
+    height: 80px;
+    background-color:#d4d2ceef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logotipo-header img{
+    height: 70px;
+}
+
+nav .menu-navegación ul{
+    display: flex;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    list-style: none;
+}
+
+nav .menu-navegación ul li{
+    margin-right: 30px;
+}
+.menu-navegación a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-redes i{
+    margin-right: 15px;
+}
+
+/*proyectos*/
+
+.rejilla {
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    margin: 15px 0px;
+}
+
+.cuadro1 {
+    text-align: center;
+    width: 20%;
+    height: 350px;
+    margin: 10px 20px;
+    border: #d4d2ceef 4px solid;
+    border-radius: 15px;
+    padding: 10px 0px;
+}
+
+.rejilla img{
+    height: 130px;
+    border-radius: 15px;
+}
+
+.rejilla h2{
+    font-family: sans-serif;
+    font-size: 21px;
+    color: #00160c;
+    margin: 10px 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.rejilla p{
+    font-family:Verdana;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin: 0px 28px;
+}
+
+.parrafo {
+    height: 30%;
+}
+
+.rejilla button{
+    color:#d4d2ceef;
+    background:  rgb(101, 57, 134);
+    border:none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 170px; 
+    height: 30px;
+    margin-top: 14px;
+}
+
+/*contactame*/
+
+.karen6 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.karen6 img {
+    height: 200px;
+    border-radius: 30%;
+}
+
+.karen6 h2{
+    font-family: Impact;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen6 p{
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.redessociales {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorredes a {
+    color: rgb(0, 0, 0);
+}
+
+/*acercademi*/
+
+.karen3 {
+    margin-top: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.karen4 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.karen4 img {
+    height: 200px;
+    border-radius: 20%;
+}
+
+.karen5 {
+    width: 50%;
+    text-align: center;
+}
+
+.karen5 h1{
+    font-family: Impact;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen5 p {
+    font-family:Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/*cafeliterario*/
+
+.karen7 h1 {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen7 p{
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen8 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.karen9 {
+    width: 40%;
+}
+
+.karen9 h2{
+    font-family: Impact;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen9 p{
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen10 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40%;
+}
+
+.karen10 img{
+    width: 380px;
+    border-radius: 10px;
+}
+
+.karen11 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.karen11 img{
+    height: 100px;
+    border-radius: 150px;
+}
+
+.karen12 {
+    margin-left: 20px;
+}
+
+.karen12 h3 {
+    font-family: Impact;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.karen12 p {
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    height: 30px;
+    background-color: rgb(101, 57, 134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4d2ceef;
+    font-family: monospace;
+    font-size: 18px;
+}
